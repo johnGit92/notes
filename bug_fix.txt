@@ -1,0 +1,3 @@
+-cliccando su "create" dopo aver cliccato su "edit" restano i dati della card selezionata nella sezione "crea/modifica".
+
+-quando si crea una nuova nota, dopo il click su "save" restano i dati della nota appena inviata.

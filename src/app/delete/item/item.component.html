@@ -1,0 +1,18 @@
+<div class="col s6 m4">
+  <div class="card">
+    <div class="card-image">
+      <img src="https://images.unsplash.com/photo-1557626204-59dd03fd2d31?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80">
+      <span class="card-title">{{note.title}}</span>
+      <button class="btn-floating btn-large halfway-fab waves-effect waves-light blue" (click)="editNote()">
+        <i class="large material-icons">create</i>
+      </button>
+    </div>
+    <div class="card-content">
+      <p>{{note.content}}</p>
+      <button class="btn-floating btn-large halfway-fab waves-effect waves-light red" (click)="delete(note.id)">
+        <i class="large material-icons">delete</i>
+      </button>
+    </div>
+  </div>
+</div>
+

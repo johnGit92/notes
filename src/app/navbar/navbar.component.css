@@ -1,0 +1,32 @@
+.nav-wrapper {
+  background-color: rgb(69, 166, 218);
+
+}
+
+.logo {
+  width: 90%;
+  height: 90%;
+  padding: 8px;
+}
+
+.li-nav {
+  width: 62px;
+  height: 62px;
+}
+
+.h4-center {
+  text-align: left;
+  font-family: 'Quantico', sans-serif;
+  padding-top: 8px;
+  color: rgb(55, 58, 58);
+  width: 250px;
+}
+
+.pls {
+  float: right;
+  margin: 16px 16px
+ }
+
+ i {
+   line-height: 34px!important
+ }

@@ -1,0 +1,16 @@
+<!-- Cards viewer -->
+<div style="left: 0; position: absolute" class="row" [ngClass]="showEdit ? 'div-small' : 'div-large'">
+  <app-item *ngFor="let note of notes; index as index" [note]="note" [index]="index"></app-item>
+</div>
+
+<!-- Create/Edit section -->
+<div *ngIf="showEdit" style="right: 0; position: absolute" [ngClass]="showEdit ? 'div-small' : 'div-large'">
+  <strong style="text-align: center; display: block">Note Details</strong>
+  <form>
+    <input id="title" type="text" placeholder="Title" name="title" [(ngModel)]="note.title" required>
+    <input id="content" type="text" placeholder="Content" name="content" [(ngModel)]="note.content" required>
+    <input id="authorId" type="text" placeholder="Author Id" name="id" [(ngModel)]="author.id" required>
+    <button type="button" class="btn" (click)="save()">Save</button>
+    <button type="button" class="btn red" (click)="close()">Close</button>
+  </form>
+</div>

@@ -1,1 +1,7 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~materialize-css/dist/css/materialize";
+@import "~material-icons\iconfont\material-icons";
+@import url('https://fonts.googleapis.com/css?family=Quantico&display=swap');
+
+body {
+  background-color: rgb(215, 233, 250)
+}
